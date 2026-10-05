@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+}
+
+.grammar-box {
+    background: #eef3ff;
+    padding: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.input-box {
+    margin-top: 25px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #2563eb;
+    color: white;
+}
+
+.clear-btn {
+    background: #555;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.valid {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.invalid {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+#treeContainer,
+#jsonContainer {
+    margin-top: 25px;
+}
+
+pre {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.tree-node {
+    text-align: center;
+    margin: 15px;
+}
+
+.node {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: white;
+    font-weight: bold;
+}
+
+.children {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

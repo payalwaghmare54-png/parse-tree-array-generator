@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Parse Tree Array Generator</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Parse Tree Array Generator</h1>
+
+        <p class="subtitle">
+            CFG Based String Parser and Visualizer
+        </p>
+
+        <div class="grammar-box">
+
+            <h2>Context Free Grammar</h2>
+
+            <p><b>S → aSb</b></p>
+            <p><b>S → ab</b></p>
+
+        </div>
+
+        <div class="input-box">
+
+            <label>Enter String:</label>
+
+            <input
+                type="text"
+                id="inputString"
+                placeholder="Example: aabb"
+            >
+
+            <button onclick="generateTree()">
+                Generate Parse Tree
+            </button>
+
+            <button class="clear-btn" onclick="clearResult()">
+                Clear
+            </button>
+
+        </div>
+
+        <div id="result"></div>
+
+        <div id="treeContainer"></div>
+
+        <div id="jsonContainer"></div>
+
+    </div>
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
